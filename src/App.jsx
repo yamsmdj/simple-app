@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
 import Home from './Home';
+import Recipe from './Recipe';
 import Setting from './Setting';
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/recette' element={<Recipe />} />
-        <Route path='/paramettre' element={<Setting />} />
+        <Route path='/parametre' element={<Setting />} />
       </Routes>
     </div>
   );

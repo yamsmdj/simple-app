@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './Header';
 
 const Setting = () => {
     return (
-        <div>
+        <>
+        <Header />
             Paramettre
-        </div>
+        </>
     );
 };
 
