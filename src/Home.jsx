@@ -1,5 +1,6 @@
 import './styles.css'
 import Header from './Header';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                         <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
                         <p class="text-white-50">
                             Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                            <NavLink href="https://startbootstrap.com/theme/grayscale/">the preview page. </NavLink>
                             The theme is open source, and you can use it for any purpose, personal or commercial.
                         </p>
                     </div>
@@ -80,7 +81,7 @@ const Home = () => {
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    <NavLink href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms </NavLink>
                                 </div>
                             </div>
 
@@ -110,7 +111,7 @@ const Home = () => {
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><NavLink href="#!">hello@yourdomain.com </NavLink></div>
                             </div>
                         </div>
                     </div>
@@ -126,9 +127,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <NavLink class="mx-2" href="#!"><i class="fab fa-twitter"></i> </NavLink>
+                    <NavLink class="mx-2" href="#!"><i class="fab fa-facebook-f"></i> </NavLink>
+                    <NavLink class="mx-2" href="#!"><i class="fab fa-github"></i> </NavLink>
                 </div>
             </div>
         </section>
